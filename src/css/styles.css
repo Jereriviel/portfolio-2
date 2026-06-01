@@ -1,1 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
 @import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-primary: "JetBrains Mono", "sans-serif";
+  --font-display: "Coustard", "sans-serif";
+
+  /* Colors */
+  --color-accent: oklch(0.6711 0.2698 318.56);
+  --color-primary: oklch(0.3487 0.1429 304.84);
+  --color-primary-medium: oklch(0.2797 0.1084 305.53);
+  --color-primary-dark: oklch(0.1639 0.0609 306.88);
+  --color-secondary: oklch(0.2624 0.1154 289.96);
+  --color-secondary-dark: oklch(0.1525 0.0519 276.29);
+
+  /* Colors 50% Opacity */
+  --color-primary-medium-50: oklch(0.2797 0.1084 305.53 / 0.5);
+  --color-primary-dark-50: oklch(0.1639 0.0609 306.88 / 0.5);
+
+  /* Gradients */
+
+  --background-image-gradient: linear-gradient(
+    45deg,
+    var(--color-primary-medium),
+    var(--color-primary-dark)
+  );
+
+  --background-image-gradient-transparent: linear-gradient(
+    45deg,
+    var(--color-primary-medium-50),
+    var(--color-primary-dark-50)
+  );
+}
+
+@layer base {
+  html {
+    @apply font-primary bg-secondary-dark scroll-smooth text-white;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .link {
+    @apply hover:text-accent transition duration-500 ease-in-out;
+  }
+
+  .btn {
+    @apply flex items-center gap-2 rounded-lg uppercase transition duration-500 ease-in-out hover:bg-black;
+  }
+
+  .btn_cta {
+    @apply px-5 py-3 text-xl;
+  }
+
+  .btn_cta_small {
+    @apply px-4 py-2;
+  }
+
+  .tag {
+    @apply flex items-center justify-center gap-2 rounded border border-white text-sm;
+  }
+
+  .tag_card {
+    @apply w-fit px-4 py-2;
+  }
+
+  .tag_stack {
+    @apply bg-gradient-transparent w-41 py-4;
+  }
+
+  .card {
+    @apply w-full rounded-lg border border-white p-4 sm:p-8;
+  }
+
+  .card_project {
+    @apply bg-gradient sm:w-100;
+  }
+
+  .card_tech {
+    @apply bg-gradient-transparent sm:w-70;
+  }
+}
+
+@layer utilities {
+}
