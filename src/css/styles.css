@@ -65,7 +65,7 @@
   }
 
   .tag_card {
-    @apply w-fit px-3 py-1.5;
+    @apply w-fit px-2 py-1.5;
   }
 
   .tag_stack {
