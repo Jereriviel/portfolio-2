@@ -1,15 +1,12 @@
-import HeroHome from "../components/features/hero/HeroHome";
+import HeroHome from "../components/features/home/HeroHome";
+import Featured from "../components/features/home/Featured";
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col gap-8 sm:gap-12">
+    <>
       <HeroHome />
-      <section className="h-[500px]">Featured Projects</section>
-      <section className="h-[500px]">Technology</section>
-      <section className="h-[500px]" id="about-section">
-        About
-      </section>
-    </div>
+      <Featured />
+    </>
   );
 };
 
