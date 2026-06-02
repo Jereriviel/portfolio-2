@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import type { Project } from "../../../types/project";
+import type { Project } from "../../types/project";
 import { Icon } from "@iconify/react";
+import CardTag from "../tags/CardTag";
 
 type ProjectCardProps = {
   project: Project;
@@ -21,7 +22,11 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         <span>{" }"}</span>
       </p>
       <h3 className="text-lg uppercase"> {"< Built_with >"}</h3>
-      <div>Tags</div>
+      <div className="flex flex-wrap gap-3">
+        {project.tags.map((tag) => (
+          <CardTag key={tag} tag={tag} />
+        ))}
+      </div>
       <Link className="btn_cta btn uppercase" to={`/article/${project.id}`}>
         {"< See_Project >"}
       </Link>

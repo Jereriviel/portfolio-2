@@ -1,4 +1,4 @@
-import ProjectCard from "../cards/ProjectCard";
+import ProjectCard from "../../cards/ProjectCard";
 import { projects } from "../../../data/projects";
 
 const Featured = () => {
