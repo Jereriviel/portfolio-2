@@ -11,6 +11,19 @@ import thumbnail_sciencemuseum from "../assets/thumbnails/thumbnail_sciencemuseu
 
 export const projects: Project[] = [
   {
+    id: "portfolio-year-2",
+    title: "Portfolio_Year_2",
+    description:
+      "personal portfolio showcasing three frontend projects from my second school year",
+    thumbnail: "",
+    tags: ["React", "TypeScript", "Tailwind", "Vite", "Figma"],
+    featured: false,
+    repoUrl: "https://github.com/Jereriviel/portfolio-2",
+    figmaUrl:
+      "https://www.figma.com/design/b4iwZGm0XD3HaqBHIJ1tGh/Portfolio-2?node-id=1-2817&t=tJSv804M6uXARjRt-1",
+    liveUrl: "https://jereriviel-portfolio.netlify.app/",
+  },
+  {
     id: "holidaze-booking-application",
     title: "Holidaze_Booking_App",
     description:

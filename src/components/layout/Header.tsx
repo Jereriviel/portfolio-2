@@ -1,8 +1,35 @@
+import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
 const Header = () => {
   return (
     <>
-      <header className="top-0 z-50 mt-0 w-full space-y-4 p-4 md:space-y-0 md:px-8">
-        Header
+      <header className="sticky top-0 z-50 mt-0 w-full space-y-4 p-4 md:space-y-0 md:px-8">
+        <nav className="flex justify-between">
+          <NavLink
+            to={"/"}
+            className={({ isActive }) =>
+              `link ${isActive ? "text-accent" : ""}`
+            }
+          >
+            home
+          </NavLink>
+
+          <div className="flex gap-4">
+            <NavLink
+              to={"/projects"}
+              className={({ isActive }) =>
+                `link ${isActive ? "text-accent" : ""}`
+              }
+            >
+              work
+            </NavLink>
+
+            <HashLink smooth to={"/#about-section"} className="link">
+              about
+            </HashLink>
+          </div>
+        </nav>
       </header>
     </>
   );
