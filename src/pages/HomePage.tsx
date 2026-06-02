@@ -1,7 +1,9 @@
+import HeroHome from "../components/features/hero/HeroHome";
+
 const HomePage = () => {
   return (
     <div className="flex flex-col gap-8 sm:gap-12">
-      <section className="h-[500px]">Hero</section>
+      <HeroHome />
       <section className="h-[500px]">Featured Projects</section>
       <section className="h-[500px]">Technology</section>
       <section className="h-[500px]" id="about-section">
