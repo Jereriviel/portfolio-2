@@ -13,7 +13,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
       <div className="flex flex-col gap-4">
         <h2 className="text-lg uppercase sm:text-xl">
           <span>{"< "}</span>
-          {project.title}
+          {project.titleCard}
           <span>{" >"}</span>
         </h2>
         <img src={project.thumbnail} alt="Thumbnail" />

@@ -12,7 +12,8 @@ import thumbnail_sciencemuseum from "../assets/thumbnails/thumbnail_sciencemuseu
 export const projects: Project[] = [
   {
     id: "portfolio-year-2",
-    title: "Portfolio_Year_2",
+    title: "Portfolio Year 2",
+    titleCard: "Portfolio_Year_2",
     description:
       "personal portfolio showcasing three frontend projects from my second school year",
     thumbnail: "",
@@ -27,7 +28,8 @@ export const projects: Project[] = [
 
   {
     id: "holidaze-booking-application",
-    title: "Holidaze_Booking_App",
+    title: "Holidaze Booking App",
+    titleCard: "Holidaze_Booking_App",
     description:
       "accommodation booking platform with venue browsing, search and booking management functionality",
     thumbnail: thumbnail_holidaze,
@@ -42,7 +44,8 @@ export const projects: Project[] = [
 
   {
     id: "meerkat-online-store",
-    title: "Meerkat_online_store",
+    title: "Meerkat Online Store",
+    titleCard: "Meerkat_Online_Store",
     description:
       "fully functional e-commerce frontend with browsing, search and shopping cart functionality",
     thumbnail: thumbnail_meerkat,
@@ -57,7 +60,8 @@ export const projects: Project[] = [
 
   {
     id: "smart-recipe-book-application",
-    title: "Smart_Recipe_Book",
+    title: "Smart Recipe Book",
+    titleCard: "Smart_Recipe_Book",
     description:
       "recipe application for creating and editing recipes, with search, filtering and authentication",
     thumbnail: thumbnail_smartrecipebook,
@@ -72,7 +76,8 @@ export const projects: Project[] = [
 
   {
     id: "trove-auction-house",
-    title: "Trove_Auction_House",
+    title: "Trove Auction House",
+    titleCard: "Trove_Auction_House",
     description:
       "auctioning platform with item listings, bidding, filtering, search and user profiles",
     thumbnail: thumbnail_trove,
@@ -87,7 +92,8 @@ export const projects: Project[] = [
 
   {
     id: "heart-social-platform",
-    title: "Hearth_SOME_Platform",
+    title: "Hearth Social Media Platform",
+    titleCard: "Hearth_SOME_Platform",
     description:
       "social media platform with post, follow, user profiles and search functionality",
     thumbnail: thumbnail_hearth,
@@ -102,7 +108,8 @@ export const projects: Project[] = [
 
   {
     id: "portfolio-year-1",
-    title: "Portfolio_Year_1",
+    title: "Portfolio Year 1",
+    titleCard: "Portfolio_Year_1",
     description:
       "personal portfolio showcasing three frontend projects from my first school year",
     thumbnail: thumbnail_portfolio1,
@@ -117,7 +124,8 @@ export const projects: Project[] = [
 
   {
     id: "back-to-basics-blog-application",
-    title: "Blog_Application",
+    title: "Back to Basics Blog",
+    titleCard: "Blog_Application",
     description:
       "blog application with features for viewing, creating and managing blog posts",
     thumbnail: thumbnail_backtobasics,
@@ -132,7 +140,8 @@ export const projects: Project[] = [
 
   {
     id: "rainydays-online-store",
-    title: "RainyDays_Store",
+    title: "RainyDays Online Store",
+    titleCard: "RainyDays_Store",
     description:
       "responsive, multi-page online store with browsing and shopping cart functionality",
     thumbnail: thumbnail_rainydays,
@@ -147,7 +156,8 @@ export const projects: Project[] = [
 
   {
     id: "community-science-museum-website",
-    title: "Science_Museum",
+    title: "Science Museum Website",
+    titleCard: "Science_Museum",
     description:
       "responsive and accessible multi-page website with browsing and responsive navbar",
     thumbnail: thumbnail_sciencemuseum,
