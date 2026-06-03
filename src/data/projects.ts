@@ -18,11 +18,13 @@ export const projects: Project[] = [
     thumbnail: "",
     tags: ["React", "TypeScript", "Tailwind", "Vite", "Figma"],
     featured: false,
+    year: 2,
     repoUrl: "https://github.com/Jereriviel/portfolio-2",
     figmaUrl:
       "https://www.figma.com/design/b4iwZGm0XD3HaqBHIJ1tGh/Portfolio-2?node-id=1-2817&t=tJSv804M6uXARjRt-1",
     liveUrl: "https://jereriviel-portfolio.netlify.app/",
   },
+
   {
     id: "holidaze-booking-application",
     title: "Holidaze_Booking_App",
@@ -31,11 +33,13 @@ export const projects: Project[] = [
     thumbnail: thumbnail_holidaze,
     tags: ["React", "TypeScript", "Tailwind", "Vite", "Figma"],
     featured: false,
+    year: 2,
     repoUrl: "https://github.com/Jereriviel/project-exam-2",
     figmaUrl:
       "https://www.figma.com/design/cfWa93rTWCxTxo0cPyupnG/PE2-Holidaze?node-id=10-2&t=B8HGiCGIoWpcbXoO-1",
     liveUrl: "https://jereriviel-pe2-holidaze.netlify.app/",
   },
+
   {
     id: "meerkat-online-store",
     title: "Meerkat_online_store",
@@ -44,24 +48,28 @@ export const projects: Project[] = [
     thumbnail: thumbnail_meerkat,
     tags: ["React", "TypeScript", "Tailwind", "Vite", "Figma"],
     featured: true,
+    year: 2,
     repoUrl: "https://github.com/Jereriviel/js-frameworks-ca",
     figmaUrl:
       "https://www.figma.com/design/J9cAdEBVpKIsPzytwlSCRJ/JavaScript-Frameworks?node-id=0-1&t=KkDKlvYVyd9XzqSI-1",
     liveUrl: "https://jereriviel-js-frameworks.netlify.app/",
   },
+
   {
     id: "smart-recipe-book-application",
     title: "Smart_Recipe_Book",
-    description: thumbnail_smartrecipebook,
-    thumbnail:
+    description:
       "recipe application for creating and editing recipes, with search, filtering and authentication",
+    thumbnail: thumbnail_smartrecipebook,
     tags: ["React", "TypeScript", "Tailwind", "Vite", "Figma"],
     featured: false,
+    year: 2,
     repoUrl: "",
     figmaUrl:
       "https://www.figma.com/design/FAGzx9gqzNiLzP17GTyMQ1/Smart-Recipe-Book-Design?node-id=0-1&t=Pp6vtXyradlBMZP8-1",
     liveUrl: "https://smart-recipe-book.netlify.app/",
   },
+
   {
     id: "trove-auction-house",
     title: "Trove_Auction_House",
@@ -70,11 +78,13 @@ export const projects: Project[] = [
     thumbnail: thumbnail_trove,
     tags: ["TypeScript", "Tailwind", "Figma"],
     featured: true,
+    year: 2,
     repoUrl: "https://github.com/Jereriviel/semester-project-2",
     figmaUrl:
       "https://www.figma.com/design/JQPGpxgNfymJqX7FX6SJYC/Semester-Project-2?node-id=0-1&t=fBe4B8VICeTaRzdi-1",
     liveUrl: "https://jereriviel-semester-project-2.netlify.app/index.html",
   },
+
   {
     id: "heart-social-platform",
     title: "Hearth_SOME_Platform",
@@ -83,11 +93,13 @@ export const projects: Project[] = [
     thumbnail: thumbnail_hearth,
     tags: ["TypeScript", "Tailwind", "Vite", "Figma"],
     featured: true,
+    year: 2,
     repoUrl: "https://github.com/Jereriviel/js2-ca",
     figmaUrl:
       "https://www.figma.com/design/hlbKZ2jyst2RDrPUG15300/JS2-CA?node-id=1-980&t=N0ZRw4t2XAaN5X04-1",
     liveUrl: "https://jereriviel-js2-ca.netlify.app/",
   },
+
   {
     id: "portfolio-year-1",
     title: "Portfolio_Year_1",
@@ -96,11 +108,13 @@ export const projects: Project[] = [
     thumbnail: thumbnail_portfolio1,
     tags: ["CSS", "HTML", "Figma"],
     featured: false,
+    year: 1,
     repoUrl: "https://github.com/Jereriviel/portfolio",
     figmaUrl:
       "https://www.figma.com/design/82tF9ON1a5vekicxbSaxyO/Portifolio-website?node-id=0-1&t=q3Y9AIeGMHpRw0LM-1",
     liveUrl: "https://jereriviel.github.io/portfolio/",
   },
+
   {
     id: "back-to-basics-blog-application",
     title: "Blog_Application",
@@ -109,11 +123,13 @@ export const projects: Project[] = [
     thumbnail: thumbnail_backtobasics,
     tags: ["JavaScript", "CSS", "HTML", "Figma"],
     featured: false,
+    year: 1,
     repoUrl: "https://github.com/Jereriviel/project-exam-1",
     figmaUrl:
       "https://www.figma.com/design/WOJ3hiFtx1W0KMSdCADpQl/FED1-PE1-Jereriviel?node-id=0-1&t=QEtrgYFcBdUNSKSI-1",
     liveUrl: "https://jereriviel.github.io/project-exam-1/index.html",
   },
+
   {
     id: "rainydays-online-store",
     title: "RainyDays_Store",
@@ -122,11 +138,13 @@ export const projects: Project[] = [
     thumbnail: thumbnail_rainydays,
     tags: ["JavaScript", "CSS", "HTML", "Figma"],
     featured: false,
+    year: 1,
     repoUrl: "https://github.com/Jereriviel/javascript-1-ca",
     figmaUrl:
       "https://www.figma.com/design/VJqTLHYmgp3CUCMozfGq3t/Rainy-Days-New-JS?node-id=22-4916&t=Q9xpfykoiVSdwkYq-1",
     liveUrl: "https://jereriviel.github.io/javascript-1-ca/index.html",
   },
+
   {
     id: "community-science-museum-website",
     title: "Science_Museum",
@@ -135,6 +153,7 @@ export const projects: Project[] = [
     thumbnail: thumbnail_sciencemuseum,
     tags: ["CSS", "HTML", "Figma"],
     featured: false,
+    year: 1,
     repoUrl: "https://github.com/Jereriviel/semester-project-1",
     figmaUrl:
       "https://www.figma.com/design/JsixZPpZjNhYgKiDQbP2hh/Semester-Project-1?node-id=2001-532&t=I1ixGlSjzTo1zlbJ-1",

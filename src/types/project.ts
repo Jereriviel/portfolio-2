@@ -7,6 +7,7 @@ export type Project = {
   thumbnail: string;
   tags: Tag[];
   featured: boolean;
+  year: number;
   repoUrl?: string;
   figmaUrl?: string;
   liveUrl?: string;
