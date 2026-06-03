@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import type { Project } from "../../types/project";
 import { Icon } from "@iconify/react";
-import CardTag from "../tags/CardTag";
+import CardTag from "../ui/tags/CardTag";
 
 type ProjectCardProps = {
   project: Project;

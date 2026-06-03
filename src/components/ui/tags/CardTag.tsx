@@ -1,6 +1,6 @@
 import { Icon } from "@iconify/react";
-import tagConfig from "../../utils/tagConfig";
-import type { Tag } from "../../types/tag";
+import tagConfig from "../../../utils/tagConfig";
+import type { Tag } from "../../../types/tag";
 
 type TagProps = {
   tag: Tag;
