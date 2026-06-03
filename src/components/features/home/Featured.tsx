@@ -1,4 +1,4 @@
-import ProjectCard from "../../cards/ProjectCard";
+import ProjectCard from "../../ui/cards/ProjectCard";
 import { projects } from "../../../data/projects";
 import Heading from "../../ui/Heading";
 

@@ -2,6 +2,7 @@ import TextSection from "../TextSection";
 import TechSection from "../TechSection";
 import searchImg from "../../../../assets/images/meerkat_search.webp";
 import cartImg from "../../../../assets/images/meerkat_cart.webp";
+import TechCard from "../../../ui/cards/TechCard";
 
 const Meerkat = () => {
   return (
@@ -43,7 +44,26 @@ const Meerkat = () => {
         </p>
       </TextSection>
       <TechSection>
-        <p>Tech section coming soon</p>
+        <TechCard heading="Frontend">
+          <li>• React</li>
+          <li>• TypeScript</li>
+          <li>• Tailwind CSS</li>
+          <li>• Vite</li>
+          <li>• React Router</li>
+        </TechCard>
+        <TechCard heading="State & Data">
+          <li>• Zustand</li>
+          <li>• TanStack Query</li>
+        </TechCard>
+        <TechCard heading="UI & UX">
+          <li>• Headless UI</li>
+          <li>• Framer Motion</li>
+          <li>• React Toastify</li>
+        </TechCard>
+        <TechCard heading="Form & Validation">
+          <li>• React Hook Form</li>
+          <li>• Zod Validation</li>
+        </TechCard>
       </TechSection>
     </>
   );

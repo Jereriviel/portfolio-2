@@ -87,15 +87,7 @@
   }
 
   .card {
-    @apply w-full rounded-lg border border-white p-4 sm:p-8;
-  }
-
-  .card_project {
-    @apply bg-gradient sm:w-100;
-  }
-
-  .card_tech {
-    @apply bg-gradient-transparent sm:w-70;
+    @apply flex w-full flex-col rounded-xl border border-white p-4 sm:p-8;
   }
 }
 

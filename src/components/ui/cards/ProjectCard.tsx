@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import type { Project } from "../../types/project";
+import type { Project } from "../../../types/project";
 import { Icon } from "@iconify/react";
-import CardTag from "../ui/tags/CardTag";
+import CardTag from "../tags/CardTag";
 
 type ProjectCardProps = {
   project: Project;
@@ -9,7 +9,7 @@ type ProjectCardProps = {
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
-    <article className="bg-gradient flex flex-col justify-between gap-8 rounded-xl border border-white p-4 sm:p-8">
+    <article className="bg-gradient card justify-between gap-8">
       <div className="flex flex-col gap-4">
         <h2 className="text-lg uppercase sm:text-xl">
           <span>{"< "}</span>
