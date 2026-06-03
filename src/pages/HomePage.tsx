@@ -1,6 +1,7 @@
 import HeroHome from "../components/features/home/HeroHome";
 import Featured from "../components/features/home/Featured";
 import Stack from "../components/features/home/Stack";
+import About from "../components/features/home/About";
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <HeroHome />
       <Featured />
       <Stack />
+      <About />
     </>
   );
 };

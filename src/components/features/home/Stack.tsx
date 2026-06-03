@@ -17,7 +17,7 @@ const Stack = () => {
       <div className="flex items-center gap-4">
         <hr className="w-full text-white" />
         <div className="shrink-0">
-          <h2 className="font-display text-2xl lowercase sm:text-3xl md:text-4xl">
+          <h2 className="font-display text-xl lowercase sm:text-2xl md:text-3xl">
             stack & tools
           </h2>
         </div>

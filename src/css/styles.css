@@ -33,11 +33,9 @@
     var(--color-primary-dark-50)
   );
 
-  --background-image-gradient-accent: linear-gradient(
-    45deg,
-    var(--color-accent-medium),
-    var(--color-accent)
-  );
+  --background-image-gradient-accent:
+    linear-gradient(rgb(0 0 0 / 0.2), rgb(0 0 0 / 0.2)),
+    linear-gradient(45deg, var(--color-accent-medium), var(--color-accent));
 }
 
 @layer base {
@@ -52,7 +50,7 @@
 
 @layer components {
   .link {
-    @apply hover:text-accent transition duration-500 ease-in-out;
+    @apply hover:text-accent flex items-center gap-2 transition duration-500 ease-in-out;
   }
 
   .btn {
@@ -60,7 +58,16 @@
   }
 
   .btn_cta {
-    @apply bg-gradient-accent px-4 py-2 text-xl hover:brightness-120;
+    @apply px-4 py-2 text-xl;
+
+    background-image: var(--background-image-gradient-accent);
+    background-size: 200% 100%;
+    background-position: 0% 50%;
+    transition: background-position 500ms ease;
+  }
+
+  .btn_cta:hover {
+    background-position: 100% 0%;
   }
 
   .btn_link {
