@@ -8,6 +8,7 @@
 
   /* Colors */
   --color-accent: oklch(0.6711 0.2698 318.56);
+  --color-accent-medium: oklch(0.5001 0.2362 317.39);
   --color-primary: oklch(0.3487 0.1429 304.84);
   --color-primary-medium: oklch(0.2797 0.1084 305.53);
   --color-primary-dark: oklch(0.1639 0.0609 306.88);
@@ -31,6 +32,12 @@
     var(--color-primary-medium-50),
     var(--color-primary-dark-50)
   );
+
+  --background-image-gradient-accent: linear-gradient(
+    45deg,
+    var(--color-accent-medium),
+    var(--color-accent)
+  );
 }
 
 @layer base {
@@ -49,27 +56,27 @@
   }
 
   .btn {
-    @apply flex w-fit items-center gap-2 rounded-lg font-medium uppercase transition duration-500 ease-in-out hover:bg-black;
+    @apply flex w-fit items-center gap-2 rounded-lg font-medium uppercase transition duration-500 ease-in-out;
   }
 
   .btn_cta {
-    @apply px-5 py-3 text-xl;
+    @apply bg-gradient-accent px-4 py-2 text-xl hover:brightness-120;
   }
 
-  .btn_cta_small {
-    @apply px-4 py-2;
+  .btn_link {
+    @apply px-4 py-2 hover:bg-black;
   }
 
   .tag {
-    @apply flex items-center justify-center gap-2 rounded border border-white text-sm;
+    @apply flex items-center justify-start rounded border border-white text-sm;
   }
 
   .tag_card {
-    @apply w-fit px-2 py-1.5;
+    @apply w-fit gap-2 px-2 py-1.5;
   }
 
   .tag_stack {
-    @apply bg-gradient-transparent w-41 py-4;
+    @apply bg-gradient-transparent w-40 gap-4 px-4 py-4;
   }
 
   .card {

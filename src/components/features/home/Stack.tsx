@@ -23,7 +23,7 @@ const Stack = () => {
         </div>
         <hr className="w-full text-white" />
       </div>
-      <div className="flex flex-wrap gap-4 sm:gap-8">
+      <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8">
         <div className="tag_stack tag">
           <img src={reactImg} alt="tag" />
           <span>React</span>

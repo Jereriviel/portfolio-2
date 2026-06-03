@@ -4,7 +4,7 @@ import { HashLink } from "react-router-hash-link";
 const Header = () => {
   return (
     <>
-      <header className="sticky top-0 z-50 mt-0 w-full space-y-4 py-4 md:space-y-0">
+      <header className="top-0 z-50 mt-0 w-full space-y-4 py-4 md:space-y-0">
         <nav className="flex justify-between">
           <NavLink
             to={"/"}

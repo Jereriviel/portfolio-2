@@ -2,7 +2,7 @@ const HeroHome = () => {
   return (
     <section className="py-8 sm:py-10 md:py-12">
       <div className="flex flex-col items-center gap-4 sm:gap-6 md:gap-8">
-        <p className="uppercase sm:text-xl md:text-2xl">
+        <p className="text-xl uppercase md:text-2xl">
           {"< Welcome_to_my_portfolio >"}
         </p>
         <h1 className="font-display text-accent text-center text-[40px] uppercase sm:text-5xl md:text-6xl">
