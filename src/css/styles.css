@@ -40,7 +40,7 @@
 
 @layer base {
   html {
-    @apply font-primary bg-secondary-dark scroll-smooth text-white;
+    @apply font-primary bg-secondary-dark scroll-smooth font-extralight text-white;
   }
 
   button {
@@ -50,11 +50,11 @@
 
 @layer components {
   .link {
-    @apply hover:text-accent flex items-center gap-2 transition duration-500 ease-in-out;
+    @apply hover:text-accent flex items-center gap-2 font-normal transition duration-500 ease-in-out;
   }
 
   .btn {
-    @apply flex w-fit items-center gap-2 rounded-lg font-medium uppercase transition duration-500 ease-in-out;
+    @apply flex w-fit items-center gap-2 rounded-lg font-normal uppercase transition duration-500 ease-in-out;
   }
 
   .btn_cta {
@@ -75,7 +75,7 @@
   }
 
   .tag {
-    @apply flex items-center justify-start rounded border border-white text-sm;
+    @apply flex items-center justify-start rounded border border-white/50 text-sm;
   }
 
   .tag_card {
@@ -87,7 +87,7 @@
   }
 
   .card {
-    @apply flex w-full flex-col rounded-xl border border-white p-4 sm:p-8;
+    @apply flex w-full flex-col rounded-xl border border-white/50 p-4 sm:p-8;
   }
 }
 

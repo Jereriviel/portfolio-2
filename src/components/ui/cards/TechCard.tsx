@@ -20,7 +20,7 @@ const TechCard = ({ heading, children, iconType }: TechCardProps) => {
     <article className="card bg-gradient-transparent gap-6">
       <div className="flex gap-4">
         <Icon icon={iconMap[iconType]} style={{ fontSize: "24px" }} />
-        <h3 className="text-lg uppercase">{heading}</h3>
+        <h3 className="text-lg font-normal uppercase">{heading}</h3>
       </div>
       <ul className="flex flex-col gap-4 pl-5.5">{children}</ul>
     </article>

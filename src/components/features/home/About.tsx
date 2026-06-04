@@ -37,7 +37,9 @@ const About = () => {
             />
           </div>
           <div className="flex flex-col gap-4">
-            <h3 className="text-lg uppercase md:text-xl"> {"< Connect >"}</h3>
+            <h3 className="text-lg font-normal uppercase md:text-xl">
+              {"< Connect >"}
+            </h3>
             <div className="flex flex-col gap-3 md:text-lg">
               <a
                 className="link"

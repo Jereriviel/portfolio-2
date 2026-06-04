@@ -1,6 +1,6 @@
 export type Tag =
-  | "HTML"
-  | "CSS"
+  | "HTML5"
+  | "CSS3"
   | "JavaScript"
   | "TypeScript"
   | "React"

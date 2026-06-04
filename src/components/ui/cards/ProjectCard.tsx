@@ -11,20 +11,20 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <article className="bg-gradient card justify-between gap-8">
       <div className="flex flex-col gap-4">
-        <h2 className="text-lg uppercase sm:text-xl">
+        <h2 className="text-lg font-normal uppercase">
           <span>{"< "}</span>
           {project.titleCard}
           <span>{" >"}</span>
         </h2>
         <img src={project.thumbnail} alt="Thumbnail" />
-        <p className="">
+        <p>
           <span>{"{ "}</span>
           {project.description}
           <span>{" }"}</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h3 className="text-lg uppercase"> {"< Built_with >"}</h3>
+        <h3 className="font-normal uppercase"> {"< Built_with >"}</h3>
         <div className="flex flex-wrap gap-3">
           {project.tags.map((tag) => (
             <CardTag key={tag} tag={tag} />
@@ -32,9 +32,11 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         </div>
       </div>
       <div className="flex flex-col gap-8">
-        <Link className="btn_cta btn uppercase" to={`/article/${project.id}`}>
-          {"< See_Project >"}
-        </Link>
+        {project.featured ? (
+          <Link className="btn_cta btn uppercase" to={`/article/${project.id}`}>
+            {"< See_Project >"}
+          </Link>
+        ) : null}
         <div className="flex justify-between">
           <a className="btn btn_link" target="blank" href={project.liveUrl}>
             <Icon icon="lucide:globe" />

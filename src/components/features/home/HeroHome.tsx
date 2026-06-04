@@ -8,7 +8,7 @@ const HeroHome = () => {
         <h1 className="font-display text-accent text-center text-[40px] uppercase sm:text-5xl md:text-6xl">
           Carina M. Pedersen
         </h1>
-        <p className="max-w-225 text-center text-lg font-extralight sm:text-xl md:text-2xl">
+        <p className="max-w-225 text-center text-lg sm:text-xl md:text-2xl">
           <span className="text-accent">{"{ "}</span>a front-end developer who
           writes clean and accessible code with a passion for UI design and user
           experience

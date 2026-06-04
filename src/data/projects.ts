@@ -113,7 +113,7 @@ export const projects: Project[] = [
     description:
       "personal portfolio showcasing three frontend projects from my first school year",
     thumbnail: thumbnail_portfolio1,
-    tags: ["CSS", "HTML", "Figma"],
+    tags: ["CSS3", "HTML5", "Figma"],
     featured: false,
     year: 1,
     repoUrl: "https://github.com/Jereriviel/portfolio",
@@ -129,7 +129,7 @@ export const projects: Project[] = [
     description:
       "blog application with features for viewing, creating and managing blog posts",
     thumbnail: thumbnail_backtobasics,
-    tags: ["JavaScript", "CSS", "HTML", "Figma"],
+    tags: ["JavaScript", "CSS3", "HTML5", "Figma"],
     featured: false,
     year: 1,
     repoUrl: "https://github.com/Jereriviel/project-exam-1",
@@ -145,7 +145,7 @@ export const projects: Project[] = [
     description:
       "responsive, multi-page online store with browsing and shopping cart functionality",
     thumbnail: thumbnail_rainydays,
-    tags: ["JavaScript", "CSS", "HTML", "Figma"],
+    tags: ["JavaScript", "CSS3", "HTML5", "Figma"],
     featured: false,
     year: 1,
     repoUrl: "https://github.com/Jereriviel/javascript-1-ca",
@@ -161,7 +161,7 @@ export const projects: Project[] = [
     description:
       "responsive and accessible multi-page website with browsing and responsive navbar",
     thumbnail: thumbnail_sciencemuseum,
-    tags: ["CSS", "HTML", "Figma"],
+    tags: ["CSS3", "HTML5", "Figma"],
     featured: false,
     year: 1,
     repoUrl: "https://github.com/Jereriviel/semester-project-1",
