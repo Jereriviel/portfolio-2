@@ -8,6 +8,7 @@ import thumbnail_portfolio1 from "../assets/thumbnails/thumbnail_portfolio1.webp
 import thumbnail_backtobasics from "../assets/thumbnails/thumbnail_backtobasics.webp";
 import thumbnail_rainydays from "../assets/thumbnails/thumbnail_rainydays.webp";
 import thumbnail_sciencemuseum from "../assets/thumbnails/thumbnail_sciencemuseum.webp";
+import thumbnail_portfolio2 from "../assets/thumbnails/thumbnail_portfolio2.webp";
 
 export const projects: Project[] = [
   {
@@ -16,7 +17,7 @@ export const projects: Project[] = [
     titleCard: "Portfolio_Year_2",
     description:
       "personal portfolio showcasing three frontend projects from my second school year",
-    thumbnail: "",
+    thumbnail: thumbnail_portfolio2,
     tags: ["React", "TypeScript", "Tailwind", "Vite", "Figma"],
     featured: false,
     year: 2,
