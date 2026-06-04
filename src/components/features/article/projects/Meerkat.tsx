@@ -52,17 +52,20 @@ const Meerkat = () => {
           <li className="list-disc">React Router</li>
         </TechCard>
         <TechCard heading="State_&_Data" iconType="state">
-          <li className="list-disc">Zustand</li>
           <li className="list-disc">TanStack Query</li>
+          <li className="list-disc">Zustand</li>
+          <li className="list-disc">Rest API integration</li>
         </TechCard>
         <TechCard heading="UI & UX" iconType="ui">
-          <li className="list-disc">Headless UI</li>
-          <li className="list-disc">Framer Motion</li>
-          <li className="list-disc">React Toastify</li>
+          <li className="list-disc">Responsive Design</li>
+          <li className="list-disc">Accessibility</li>
+          <li className="list-disc">Headless UI Components</li>
+          <li className="list-disc">Framer Motion Animations</li>
+          <li className="list-disc">React Toastify Notifications</li>
         </TechCard>
         <TechCard heading="Forms" iconType="form">
           <li className="list-disc">React Hook Form</li>
-          <li className="list-disc">Zod Validation</li>
+          <li className="list-disc">Zod Schema Validation</li>
         </TechCard>
       </TechSection>
     </>
