@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 type TechCardProps = {
   heading: string;
   children: ReactNode;
-  iconType: "frontend" | "state" | "ui" | "form";
+  iconType: "frontend" | "state" | "ui" | "form" | "test";
 };
 
 const TechCard = ({ heading, children, iconType }: TechCardProps) => {
@@ -13,6 +13,7 @@ const TechCard = ({ heading, children, iconType }: TechCardProps) => {
     state: "gala:data",
     ui: "iconoir:design-nib",
     form: "fluent:form-24-regular",
+    test: "tabler:browser-check",
   };
 
   return (
