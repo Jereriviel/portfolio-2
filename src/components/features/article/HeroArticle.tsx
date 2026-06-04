@@ -11,7 +11,11 @@ const HeroArticle = ({ project }: HeroArticleProps) => {
       <h1 className="font-display text-accent text-center text-[40px] uppercase sm:text-5xl md:text-6xl">
         {project.title}
       </h1>
-      <img src={project.thumbnail} alt="Thumbnail" />
+      <img
+        src={project.thumbnail}
+        alt="Thumbnail"
+        className="w-full max-w-188 self-center"
+      />
       <div className="flex justify-center gap-8 uppercase">
         <a className="link" target="blank" href={project.liveUrl}>
           <Icon icon="lucide:globe" />
