@@ -17,10 +17,10 @@ const TextSection = ({
   reverse,
 }: TextSectionProps) => {
   return (
-    <section className="flex w-full flex-col gap-8 py-8 sm:gap-10 sm:py-10 md:gap-12 md:py-12">
+    <section className="flex w-full flex-col gap-16 py-8 sm:py-10 md:gap-24 md:py-12">
       <Heading heading={heading} />
       <div
-        className={`flex flex-col gap-8 lg:gap-12 xl:flex-row ${
+        className={`flex flex-col gap-8 md:gap-10 lg:gap-12 xl:flex-row ${
           reverse ? "xl:flex-row-reverse" : ""
         }`}
       >

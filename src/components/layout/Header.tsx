@@ -15,7 +15,7 @@ const Header = () => {
             home
           </NavLink>
 
-          <div className="flex gap-4">
+          <div className="flex gap-8">
             <NavLink
               to={"/projects"}
               className={({ isActive }) =>

@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id="about-section"
-      className="flex w-full flex-col gap-16 py-8 sm:gap-10 sm:py-10 md:gap-24 md:py-12"
+      className="flex w-full flex-col gap-16 py-8 sm:py-10 md:gap-24 md:py-12"
     >
       <Heading heading="About" />
       <div className="flex flex-col gap-8 sm:gap-6 md:gap-8 lg:flex-row lg:gap-12">
@@ -17,18 +17,14 @@ const About = () => {
             and sales consultant in the IT-industry and have recently completed
             a two year front-end development programme at Noroff School of
             Technology and Digital Media.
-            <span className="text-accent">{" }"}</span>
           </p>
           <p>
-            <span className="text-accent">{"{ "}</span>I love problem-solving
-            and being creative, and enjoy learning about and working with modern
-            tools and frameworks.
-            <span className="text-accent">{" }"}</span>
+            I love problem-solving and being creative, and enjoy learning about
+            and working with modern tools and frameworks.
           </p>
           <p>
-            <span className="text-accent">{"{ "}</span>I am passionate about
-            turning ideas into life through accessible and user friendly
-            interfaces.
+            I am passionate about turning ideas into life through accessible and
+            user friendly interfaces.
             <span className="text-accent">{" }"}</span>
           </p>
         </div>

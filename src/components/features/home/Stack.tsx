@@ -14,7 +14,7 @@ import Heading from "../../ui/Heading";
 
 const Stack = () => {
   return (
-    <section className="flex w-full flex-col gap-16 py-8 sm:gap-10 sm:py-10 md:gap-24 md:py-12">
+    <section className="flex w-full flex-col gap-16 py-8 sm:py-10 md:gap-24 md:py-12">
       <Heading heading="Stack & Tools" />
       <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8">
         <div className="tag_stack tag">
