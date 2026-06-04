@@ -44,25 +44,25 @@ const Meerkat = () => {
         </p>
       </TextSection>
       <TechSection>
-        <TechCard heading="Frontend">
-          <li>• React</li>
-          <li>• TypeScript</li>
-          <li>• Tailwind CSS</li>
-          <li>• Vite</li>
-          <li>• React Router</li>
+        <TechCard heading="Frontend" iconType="frontend">
+          <li className="list-disc">React</li>
+          <li className="list-disc">TypeScript</li>
+          <li className="list-disc">Tailwind CSS</li>
+          <li className="list-disc">Vite</li>
+          <li className="list-disc">React Router</li>
         </TechCard>
-        <TechCard heading="State & Data">
-          <li>• Zustand</li>
-          <li>• TanStack Query</li>
+        <TechCard heading="State_&_Data" iconType="state">
+          <li className="list-disc">Zustand</li>
+          <li className="list-disc">TanStack Query</li>
         </TechCard>
-        <TechCard heading="UI & UX">
-          <li>• Headless UI</li>
-          <li>• Framer Motion</li>
-          <li>• React Toastify</li>
+        <TechCard heading="UI & UX" iconType="ui">
+          <li className="list-disc">Headless UI</li>
+          <li className="list-disc">Framer Motion</li>
+          <li className="list-disc">React Toastify</li>
         </TechCard>
-        <TechCard heading="Form & Validation">
-          <li>• React Hook Form</li>
-          <li>• Zod Validation</li>
+        <TechCard heading="Forms" iconType="form">
+          <li className="list-disc">React Hook Form</li>
+          <li className="list-disc">Zod Validation</li>
         </TechCard>
       </TechSection>
     </>
