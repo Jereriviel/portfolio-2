@@ -1,5 +1,7 @@
 # Portfolio 2
 
+![image](https://jereriviel-portfolio.netlify.app/thumbnail_portfolio2.webp)
+
 ## Goal
 
 Plan and carry out a professional presentation of a portfolio for potential clients or employers.
@@ -68,17 +70,9 @@ Run ESLint:
 npm run lint
 ```
 
-## Pre-Commit Hooks with Husky
-
-Husky is configured to automatically check linting and formatting before each commit:
-
-```bash
-npm run prepare
-```
-
 ## Deployment
 
-This site is deployed using Netlify:
+This site is deployed using Netlify: https://jereriviel-portfolio.netlify.app/
 
 ## Contact
 
