@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { projects } from "../data/projects";
 import HeroArticle from "../components/features/article/HeroArticle";
 import articleContent from "../utils/articleContent";
+import { Helmet } from "react-helmet-async";
 
 const ArticlePage = () => {
   const { id } = useParams();
@@ -13,12 +14,21 @@ const ArticlePage = () => {
 
   const ContentComponent = articleContent[id as keyof typeof articleContent];
 
+  const pageTitle = project
+    ? `Portfolio | ${project.title}`
+    : "Portfolio | Project";
+
+  const pageDescription =
+    project.description.slice(0, 160) || "Look closer at one of my projects.";
+
   return (
     <>
-      <section className="bottom-0 mb-0 w-full px-4 pt-4 pb-8 sm:px-8">
-        <HeroArticle project={project} />
-        {ContentComponent && <ContentComponent />}
-      </section>
+      <Helmet>
+        <title>{pageTitle}</title>
+        <meta name="description" content={pageDescription} />
+      </Helmet>
+      <HeroArticle project={project} />
+      {ContentComponent && <ContentComponent />}
     </>
   );
 };
