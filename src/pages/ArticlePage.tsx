@@ -3,6 +3,7 @@ import { projects } from "../data/projects";
 import HeroArticle from "../components/features/article/HeroArticle";
 import articleContent from "../utils/articleContent";
 import { Helmet } from "react-helmet-async";
+import ScrollToTop from "../utils/ScrollToTop";
 
 const ArticlePage = () => {
   const { id } = useParams();
@@ -27,6 +28,7 @@ const ArticlePage = () => {
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
       </Helmet>
+      <ScrollToTop />
       <HeroArticle project={project} />
       {ContentComponent && <ContentComponent />}
     </>
