@@ -23,20 +23,20 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           <span>{" }"}</span>
         </p>
       </div>
-      <div className="flex flex-col gap-4">
-        <h3 className="font-normal uppercase"> {"< Built_with >"}</h3>
-        <div className="flex flex-wrap gap-3">
-          {project.tags.map((tag) => (
-            <CardTag key={tag} tag={tag} />
-          ))}
-        </div>
-      </div>
+      {project.featured ? (
+        <Link className="btn_cta btn uppercase" to={`/article/${project.id}`}>
+          {"< Read_More >"}
+        </Link>
+      ) : null}
       <div className="flex flex-col gap-8">
-        {project.featured ? (
-          <Link className="btn_cta btn uppercase" to={`/article/${project.id}`}>
-            {"< See_Project >"}
-          </Link>
-        ) : null}
+        <div className="flex flex-col gap-4">
+          <h3 className="font-normal uppercase"> {"< Built_with >"}</h3>
+          <div className="flex flex-wrap gap-3">
+            {project.tags.map((tag) => (
+              <CardTag key={tag} tag={tag} />
+            ))}
+          </div>
+        </div>
         <div className="flex justify-between">
           <a className="btn btn_link" target="blank" href={project.liveUrl}>
             <Icon icon="lucide:globe" />

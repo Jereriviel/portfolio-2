@@ -1,8 +1,8 @@
 const tagConfig = {
-  HTML: {
+  HTML5: {
     icon: "devicon-plain:html5",
   },
-  CSS: {
+  CSS3: {
     icon: "devicon-plain:css3",
   },
   JavaScript: {

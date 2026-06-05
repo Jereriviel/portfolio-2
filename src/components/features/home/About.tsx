@@ -28,7 +28,7 @@ const About = () => {
             <span className="text-accent">{" }"}</span>
           </p>
         </div>
-        <div className="flex flex-col gap-8 sm:flex-row lg:flex-1">
+        <div className="flex flex-wrap gap-8">
           <div>
             <img
               src={carinaImage}

@@ -32,7 +32,7 @@ export const projects: Project[] = [
     title: "Holidaze Booking App",
     titleCard: "Holidaze_Booking_App",
     description:
-      "accommodation booking platform with venue browsing, search and booking management functionality",
+      "accommodation booking platform with venue browsing, search and management functionality",
     thumbnail: thumbnail_holidaze,
     tags: ["React", "TypeScript", "Tailwind", "Vite", "Figma"],
     featured: false,

@@ -51,7 +51,7 @@ const Meerkat = () => {
           <li className="list-disc">Vite</li>
           <li className="list-disc">React Router</li>
         </TechCard>
-        <TechCard heading="State_&_Data" iconType="state">
+        <TechCard heading="State & Data" iconType="state">
           <li className="list-disc">TanStack Query</li>
           <li className="list-disc">Zustand</li>
           <li className="list-disc">Rest API integration</li>
